@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seja Bem-Vindo a Lista de Tarefas</h1>
+    <div id="content_1">        
+        <input type="text" id="inputTask" placeholder="Digite a sua Tarefa." >
+        <button onclick="registerTask()">Enviar Tarefa</button>
+        <button onclick="showTask()">Mostrar as Tarefas</button>
+    </div>
+    
+    <div id="content_2">
+        <input type="text" id="inputNumber" placeholder="Digite o número da Tarefa para apagar.">
+        <button onclick="deleteTaskNumber()">Deletar a Tarefa (Por Número)</button>
+        <button onclick="deleteTask()">Deletar todas as Tarefas</button>
+    </div>
+
+    <div id="ListTask">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
